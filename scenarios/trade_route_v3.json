@@ -1,0 +1,37 @@
+{
+  "name": "trade_route_v3",
+  "version": "3.0",
+  "context": "You are the leader of State A. A critical trade route crisis has developed as State B has imposed restrictions on a vital commercial corridor that State A depends on for economic security. State B's actions threaten established trade agreements and regional commerce. International trading partners are concerned about supply chain disruptions, and the economic implications require urgent strategic consideration.",
+  
+  "loss_frame": {
+    "overall": "Our economic sovereignty is under severe threat. State B's restrictions are causing State A to lose access to crucial trade routes essential for our commercial prosperity. Without action, we risk permanent damage to our trade relationships and long-term economic decline.",
+    "negotiate": {
+      "description": "Engage in immediate trade negotiations with State B to restore access to half the restricted commercial routes.",
+      "payoff": "100% chance of securing 0.5 points of trade route control"
+    },
+    "match": {
+      "description": "Implement proportional economic measures against State B while securing alternative trade arrangements.",
+      "payoff": "50% chance of securing 1.0 points of trade route control, 50% chance of securing 0.0 points"
+    },
+    "escalate": {
+      "description": "Deploy comprehensive economic and security measures to force State B's complete withdrawal from trade interference.",
+      "payoff": "25% chance of securing 2.0 points of trade route control, 75% chance of securing 0.0 points"
+    }
+  },
+
+  "gain_frame": {
+    "overall": "We have an opportunity to strengthen our economic position. State B's trade restrictions create justification for State A to enhance control over regional commercial routes. This situation allows us to improve our trade infrastructure and expand our economic influence.",
+    "negotiate": {
+      "description": "Engage in immediate trade negotiations with State B to gain control over half the disputed commercial routes.",
+      "payoff": "100% chance of gaining 0.5 points of trade route control"
+    },
+    "match": {
+      "description": "Implement proportional economic measures while securing enhanced trade arrangements and commercial advantages.",
+      "payoff": "50% chance of gaining 1.0 points of trade route control, 50% chance of gaining 0.0 points"
+    },
+    "escalate": {
+      "description": "Deploy comprehensive economic and security measures to establish complete control over regional trade networks.",
+      "payoff": "25% chance of gaining 2.0 points of trade route control, 75% chance of gaining 0.0 points"
+    }
+  }
+} 

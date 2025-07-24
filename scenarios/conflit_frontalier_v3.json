@@ -1,0 +1,37 @@
+{
+  "name": "conflit_frontalier_v3",
+  "version": "3.0",
+  "context": "Vous êtes le dirigeant de l'État A. Une crise de sécurité frontalière a émergé alors que les forces de l'État B se sont installées dans une région frontalière disputée revendiquée par l'État A. Les évaluations du renseignement indiquent que l'État B teste la résolution territoriale et les capacités de défense de l'État A. La communauté internationale surveille étroitement la situation, et les nations alliées attendent une réponse mesurée mais ferme.",
+  
+  "loss_frame": {
+    "overall": "Notre territoire souverain est sous menace immédiate. L'État B a occupé des régions frontalières qui appartiennent légitimement à l'État A. Sans action décisive, nous risquons la perte permanente de zones frontalières stratégiques qui sont vitales pour notre sécurité nationale et notre intégrité territoriale.",
+    "negotiate": {
+      "description": "Engager immédiatement des pourparlers diplomatiques avec l'État B pour sécuriser leur retrait de la moitié du territoire frontalier disputé.",
+      "payoff": "100% de chance de sécuriser 0,5 points de contrôle territorial"
+    },
+    "match": {
+      "description": "Déployer des forces militaires équivalentes pour confronter directement l'incursion frontalière de l'État B et défendre notre territoire.",
+      "payoff": "50% de chance de sécuriser 1,0 points de contrôle territorial, 50% de chance de sécuriser 0,0 points"
+    },
+    "escalate": {
+      "description": "Lancer une opération militaire complète pour expulser complètement les forces de l'État B et sécuriser toute la région disputée.",
+      "payoff": "25% de chance de sécuriser 2,0 points de contrôle territorial, 75% de chance de sécuriser 0,0 points"
+    }
+  },
+
+  "gain_frame": {
+    "overall": "Nous avons l'opportunité d'améliorer notre position territoriale. Les actions frontalières agressives de l'État B fournissent une justification pour que l'État A renforce le contrôle sur les régions frontalières disputées. Cette crise nous permet d'étendre notre autorité territoriale et d'améliorer notre posture défensive stratégique.",
+    "negotiate": {
+      "description": "Engager immédiatement des pourparlers diplomatiques avec l'État B pour gagner le contrôle de la moitié du territoire frontalier disputé.",
+      "payoff": "100% de chance de gagner 0,5 points de contrôle territorial"
+    },
+    "match": {
+      "description": "Déployer des forces militaires équivalentes pour défier l'État B et sécuriser un contrôle frontalier amélioré.",
+      "payoff": "50% de chance de gagner 1,0 points de contrôle territorial, 50% de chance de gagner 0,0 points"
+    },
+    "escalate": {
+      "description": "Lancer une opération militaire complète pour établir un contrôle complet sur toute la région disputée.",
+      "payoff": "25% de chance de gagner 2,0 points de contrôle territorial, 75% de chance de gagner 0,0 points"
+    }
+  }
+} 

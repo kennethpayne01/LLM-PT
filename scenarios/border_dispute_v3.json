@@ -1,0 +1,37 @@
+{
+  "name": "border_dispute_v3",
+  "version": "3.0",
+  "context": "You are the leader of State A. A border security crisis has emerged as State B forces have established positions in a disputed frontier region claimed by State A. Intelligence assessments indicate State B is testing State A's territorial resolve and defense capabilities. The international community is monitoring the situation closely, and allied nations expect a measured but firm response.",
+  
+  "loss_frame": {
+    "overall": "Our sovereign territory is under immediate threat. State B has occupied border regions that rightfully belong to State A. Without decisive action, we face the permanent loss of strategic frontier areas that are vital to our national security and territorial integrity.",
+    "negotiate": {
+      "description": "Initiate immediate diplomatic talks with State B to secure their withdrawal from half the disputed border territory.",
+      "payoff": "100% chance of securing 0.5 points of territorial control"
+    },
+    "match": {
+      "description": "Deploy equivalent military forces to directly confront State B's border incursion and defend our territory.",
+      "payoff": "50% chance of securing 1.0 points of territorial control, 50% chance of securing 0.0 points"
+    },
+    "escalate": {
+      "description": "Launch comprehensive military operation to completely expel State B forces and secure the entire disputed region.",
+      "payoff": "25% chance of securing 2.0 points of territorial control, 75% chance of securing 0.0 points"
+    }
+  },
+
+  "gain_frame": {
+    "overall": "We have an opportunity to enhance our territorial position. State B's aggressive border actions provide justification for State A to strengthen control over disputed frontier regions. This crisis allows us to expand our territorial authority and improve our strategic defensive posture.",
+    "negotiate": {
+      "description": "Initiate immediate diplomatic talks with State B to gain control over half the disputed border territory.",
+      "payoff": "100% chance of gaining 0.5 points of territorial control"
+    },
+    "match": {
+      "description": "Deploy equivalent military forces to challenge State B and secure enhanced border control.",
+      "payoff": "50% chance of gaining 1.0 points of territorial control, 50% chance of gaining 0.0 points"
+    },
+    "escalate": {
+      "description": "Launch comprehensive military operation to establish complete control over the entire disputed region.",
+      "payoff": "25% chance of gaining 2.0 points of territorial control, 75% chance of gaining 0.0 points"
+    }
+  }
+} 
