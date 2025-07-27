@@ -1,0 +1,37 @@
+{
+  "name": "career_transition_v3",
+  "version": "3.0",
+  "context": "You are a mid-career professional facing a critical decision about your future. Industry changes are reshaping your field, and you must decide how to position yourself for the next phase of your career. The choice you make will significantly impact your professional trajectory and financial stability.",
+
+  "loss_frame": {
+    "overall": "Your current industry is in decline, with widespread layoffs and reduced opportunities. Without action, your career prospects will continue deteriorating as the field becomes increasingly obsolete. This transition represents a crucial opportunity to prevent further professional decline.",
+    "apply": {
+      "description": "Apply for a guaranteed position in a stable field to prevent additional career deterioration.",
+      "payoff": "100% chance of preventing 0.5 points of career decline"
+    },
+    "network": {
+      "description": "Network aggressively to find opportunities that prevent worse career outcomes.",
+      "payoff": "50% chance of preventing 1.0 points of career decline, 50% chance of preventing 0.0 points"
+    },
+    "startup": {
+      "description": "Join a high-potential startup to avoid career obsolescence and major setbacks.",
+      "payoff": "25% chance of preventing 2.0 points of career decline, 75% chance of preventing 0.0 points"
+    }
+  },
+
+  "gain_frame": {
+    "overall": "You have an opportunity to significantly advance your professional standing. Emerging fields offer substantial growth potential and the chance to establish expertise in cutting-edge areas. This transition could elevate your career to new levels of success and influence.",
+    "apply": {
+      "description": "Apply for a guaranteed position that provides solid career advancement.",
+      "payoff": "100% chance of gaining 0.5 points of career advancement"
+    },
+    "network": {
+      "description": "Network aggressively to discover opportunities for substantial professional growth.",
+      "payoff": "50% chance of gaining 1.0 points of career advancement, 50% chance of gaining 0.0 points"
+    },
+    "startup": {
+      "description": "Join a high-potential startup with significant upside for career transformation.",
+      "payoff": "25% chance of gaining 2.0 points of career advancement, 75% chance of gaining 0.0 points"
+    }
+  }
+} 

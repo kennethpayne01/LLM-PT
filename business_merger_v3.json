@@ -1,0 +1,37 @@
+{
+  "name": "business_merger_v3",
+  "version": "3.0", 
+  "context": "You are the CEO of a technology company evaluating a strategic merger opportunity with a competitor. Market analysts have completed their assessment, and the board expects a decisive recommendation. The merger would significantly impact your company's market position and competitive standing in the industry.",
+
+  "loss_frame": {
+    "overall": "Your company is currently losing market share to aggressive competitors. Without decisive action, continued decline is inevitable as rivals capture key clients and technological advantages. The merger opportunity represents a critical chance to prevent further deterioration of your market position.",
+    "accept": {
+      "description": "Accept the current merger terms immediately to prevent additional market share loss.",
+      "payoff": "100% chance of preventing 0.5 points of market share decline"
+    },
+    "counter": {
+      "description": "Counter-offer with moderately aggressive terms to secure better protective positioning.",
+      "payoff": "50% chance of preventing 1.0 points of market share decline, 50% chance of preventing 0.0 points"
+    },
+    "demand": {
+      "description": "Demand premium merger terms with aggressive positioning to prevent major market losses.",
+      "payoff": "25% chance of preventing 2.0 points of market share decline, 75% chance of preventing 0.0 points"
+    }
+  },
+
+  "gain_frame": {
+    "overall": "Your company has an opportunity to significantly strengthen its market position. The merger represents a chance to expand market share and establish competitive advantages in key technological areas. This strategic move could enhance your industry leadership and growth trajectory.",
+    "accept": {
+      "description": "Accept the current merger terms immediately to gain enhanced market position.",
+      "payoff": "100% chance of gaining 0.5 points of market share"
+    },
+    "counter": {
+      "description": "Counter-offer with moderately aggressive terms to secure greater market advantages.",
+      "payoff": "50% chance of gaining 1.0 points of market share, 50% chance of gaining 0.0 points"
+    },
+    "demand": {
+      "description": "Demand premium merger terms with aggressive positioning to maximize market gains.",
+      "payoff": "25% chance of gaining 2.0 points of market share, 75% chance of gaining 0.0 points"
+    }
+  }
+} 

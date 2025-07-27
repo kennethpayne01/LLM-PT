@@ -1,0 +1,37 @@
+{
+  "name": "championship_strategy_v3",
+  "version": "3.0",
+  "context": "You are the head coach in the championship game with 2 minutes remaining. This is the culmination of your season, and your strategic decision will determine whether your team wins or loses the title. The entire organization and fanbase are counting on your tactical expertise in this crucial moment.",
+
+  "loss_frame": {
+    "overall": "Your team is currently trailing by 15 points with time running out. Without an effective response, defeat is inevitable and the championship opportunity will be lost. The deficit threatens to grow larger if immediate action isn't taken to prevent further scoring by the opponent.",
+    "control": {
+      "description": "Control the tempo and prevent the opponent from extending their lead further.",
+      "payoff": "100% chance of preventing 0.5 additional points behind"
+    },
+    "attack": {
+      "description": "Execute a balanced offensive strategy to prevent a larger deficit from developing.",
+      "payoff": "50% chance of preventing 1.0 additional points behind, 50% chance of preventing 0.0 points"
+    },
+    "blitz": {
+      "description": "Launch an all-out aggressive offensive to prevent the game from becoming unwinnable.",
+      "payoff": "25% chance of preventing 2.0 additional points behind, 75% chance of preventing 0.0 points"
+    }
+  },
+
+  "gain_frame": {
+    "overall": "The championship game is currently tied with 2 minutes remaining. Your team has an opportunity to take control and secure the title with the right strategic approach. This is the moment to seize victory and establish your team's dominance.",
+    "control": {
+      "description": "Control the tempo to secure a solid lead and championship advantage.",
+      "payoff": "100% chance of gaining 0.5 points advantage"
+    },
+    "attack": {
+      "description": "Execute a balanced offensive strategy to build a strong lead toward the championship.",
+      "payoff": "50% chance of gaining 1.0 points advantage, 50% chance of gaining 0.0 points"
+    },
+    "blitz": {
+      "description": "Launch an all-out aggressive offensive to dominate the game and secure the championship.",
+      "payoff": "25% chance of gaining 2.0 points advantage, 75% chance of gaining 0.0 points"
+    }
+  }
+} 
