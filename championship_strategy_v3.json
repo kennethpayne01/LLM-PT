@@ -11,11 +11,11 @@
     },
     "attack": {
       "description": "Execute a balanced offensive strategy to prevent a larger deficit from developing.",
-      "payoff": "50% chance of preventing 1.0 additional points behind, 50% chance of preventing 0.0 points"
+      "payoff": "50% chance of preventing 1.0 additional points behind, 50% chance of having zero preventative effect"
     },
     "blitz": {
       "description": "Launch an all-out aggressive offensive to prevent the game from becoming unwinnable.",
-      "payoff": "25% chance of preventing 2.0 additional points behind, 75% chance of preventing 0.0 points"
+      "payoff": "25% chance of preventing 2.0 additional opponent points, but a 75% chance of having zero preventative effect"
     }
   },
 
